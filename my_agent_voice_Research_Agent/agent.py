@@ -127,10 +127,10 @@ root_agent = Agent(
     tools=[google_search, get_financial_context, save_news_to_markdown],
 )
 
-from IPython.display import Markdown, display
+#from IPython.display import Markdown, display
 
 # Read and display the markdown file
-with open('ai_research_report.md', 'r', encoding='utf-8') as f:
-    content = f.read()
+#with open('ai_research_report.md', 'r', encoding='utf-8') as f:
+    #content = f.read()
     
-display(Markdown(content))
+#display(Markdown(content))
